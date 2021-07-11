@@ -1,3 +1,23 @@
+#VS Code
+.vscode
+
+#KEIL
+Project/Project/
+Libraries/
+Doc/
+
+#Altium
+PCB/*.*
+PCB/__Previews/
+History/
+Project Logs for*/
+Project Outputs for*/
+STM32CubeMX/
+版本控制/
+!*.SchDoc
+!*.PcbDoc
+.SchDocPreview
+
 # Prerequisites
 *.d
 
@@ -50,3 +70,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+*.SchDocPreview
+*.PrjPcbStructure
